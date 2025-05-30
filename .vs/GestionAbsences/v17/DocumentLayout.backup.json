@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Utilisateur\\source\\repos\\GEstionAbsences1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7EE9658F-C978-4B07-BE6E-0F1D2898B517}|GestionAbsences.WinForms\\GestionAbsences.WinForms.csproj|c:\\users\\utilisateur\\source\\repos\\gestionabsences1\\gestionabsences.winforms\\dal\\utilisateurdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EE9658F-C978-4B07-BE6E-0F1D2898B517}|GestionAbsences.WinForms\\GestionAbsences.WinForms.csproj|solutionrelative:gestionabsences.winforms\\dal\\utilisateurdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EE9658F-C978-4B07-BE6E-0F1D2898B517}|GestionAbsences.WinForms\\GestionAbsences.WinForms.csproj|c:\\users\\utilisateur\\source\\repos\\gestionabsences1\\gestionabsences.winforms\\dal\\dalbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EE9658F-C978-4B07-BE6E-0F1D2898B517}|GestionAbsences.WinForms\\GestionAbsences.WinForms.csproj|solutionrelative:gestionabsences.winforms\\dal\\dalbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EE9658F-C978-4B07-BE6E-0F1D2898B517}|GestionAbsences.WinForms\\GestionAbsences.WinForms.csproj|c:\\users\\utilisateur\\source\\repos\\gestionabsences1\\gestionabsences.winforms\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7EE9658F-C978-4B07-BE6E-0F1D2898B517}|GestionAbsences.WinForms\\GestionAbsences.WinForms.csproj|solutionrelative:gestionabsences.winforms\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EE9658F-C978-4B07-BE6E-0F1D2898B517}|GestionAbsences.WinForms\\GestionAbsences.WinForms.csproj|c:\\users\\utilisateur\\source\\repos\\gestionabsences1\\gestionabsences.winforms\\bddmanager\\bddmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EE9658F-C978-4B07-BE6E-0F1D2898B517}|GestionAbsences.WinForms\\GestionAbsences.WinForms.csproj|solutionrelative:gestionabsences.winforms\\bddmanager\\bddmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7EE9658F-C978-4B07-BE6E-0F1D2898B517}|GestionAbsences.WinForms\\GestionAbsences.WinForms.csproj|c:\\users\\utilisateur\\source\\repos\\gestionabsences1\\gestionabsences.winforms\\view\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7EE9658F-C978-4B07-BE6E-0F1D2898B517}|GestionAbsences.WinForms\\GestionAbsences.WinForms.csproj|solutionrelative:gestionabsences.winforms\\view\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -23,6 +39,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UtilisateurDal.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\GEstionAbsences1\\GestionAbsences.WinForms\\dal\\UtilisateurDal.cs",
+              "RelativeDocumentMoniker": "GestionAbsences.WinForms\\dal\\UtilisateurDal.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\GEstionAbsences1\\GestionAbsences.WinForms\\dal\\UtilisateurDal.cs",
+              "RelativeToolTip": "GestionAbsences.WinForms\\dal\\UtilisateurDal.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T16:24:38.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DalBase.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\GEstionAbsences1\\GestionAbsences.WinForms\\dal\\DalBase.cs",
+              "RelativeDocumentMoniker": "GestionAbsences.WinForms\\dal\\DalBase.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\GEstionAbsences1\\GestionAbsences.WinForms\\dal\\DalBase.cs",
+              "RelativeToolTip": "GestionAbsences.WinForms\\dal\\DalBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T16:22:57.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\GEstionAbsences1\\GestionAbsences.WinForms\\App.config",
+              "RelativeDocumentMoniker": "GestionAbsences.WinForms\\App.config",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\GEstionAbsences1\\GestionAbsences.WinForms\\App.config",
+              "RelativeToolTip": "GestionAbsences.WinForms\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-30T16:16:24.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BddManager.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\GEstionAbsences1\\GestionAbsences.WinForms\\bddmanager\\BddManager.cs",
+              "RelativeDocumentMoniker": "GestionAbsences.WinForms\\bddmanager\\BddManager.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\GEstionAbsences1\\GestionAbsences.WinForms\\bddmanager\\BddManager.cs",
+              "RelativeToolTip": "GestionAbsences.WinForms\\bddmanager\\BddManager.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAWwFUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T16:03:53.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FormLogin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\GEstionAbsences1\\GestionAbsences.WinForms\\view\\FormLogin.cs",
               "RelativeDocumentMoniker": "GestionAbsences.WinForms\\view\\FormLogin.cs",
@@ -34,14 +102,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\GEstionAbsences1\\GestionAbsences.WinForms\\view\\Form2.cs",
               "RelativeDocumentMoniker": "GestionAbsences.WinForms\\view\\Form2.cs",
               "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\GEstionAbsences1\\GestionAbsences.WinForms\\view\\Form2.cs [Design]",
               "RelativeToolTip": "GestionAbsences.WinForms\\view\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:18:28.464Z"
+              "WhenOpened": "2025-05-30T15:18:28.464Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

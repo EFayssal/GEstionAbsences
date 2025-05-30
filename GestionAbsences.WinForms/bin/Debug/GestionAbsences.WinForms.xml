@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GestionAbsences.WinForms</name>
+    </assembly>
+    <members>
+        <member name="F:GestionAbsences.WinForms.bddmanager.BddManager.instance">
+            <summary>
+            instance unique de la classe
+            </summary>
+        </member>
+        <member name="F:GestionAbsences.WinForms.bddmanager.BddManager.connection">
+            <summary>
+            objet de connexion à la BDD à partir d'une chaîne de connexion
+            </summary>
+        </member>
+        <member name="M:GestionAbsences.WinForms.bddmanager.BddManager.#ctor(System.String)">
+            <summary>
+            Constructeur pour créer la connexion à la BDD et l'ouvrir
+            </summary>
+            <param name="stringConnect">chaine de connexion</param>
+        </member>
+        <member name="M:GestionAbsences.WinForms.bddmanager.BddManager.GetInstance(System.String)">
+            <summary>
+            Création d'une seule instance de la classe
+            </summary>
+            <param name="stringConnect">chaine de connexion</param>
+            <returns>instance unique de la classe</returns>
+        </member>
+        <member name="M:GestionAbsences.WinForms.bddmanager.BddManager.ReqUpdate(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Exécution d'une requête autre que "select"
+            </summary>
+            <param name="stringQuery">requête autre que select</param>
+            <param name="parameters">dictionnire contenant les parametres</param>
+        </member>
+        <member name="M:GestionAbsences.WinForms.bddmanager.BddManager.ReqSelect(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Execution d'une requête de type "select"
+            </summary>
+            <param name="stringQuery">requête select</param>
+            <param name="parameters">dictoinnaire contenant les parametres</param>
+            <returns>liste de tableaux d'objets contenant les valeurs des colonnes</returns>
+        </member>
+        <member name="P:GestionAbsences.WinForms.dal.DalBase.ConnectionString">
+            <summary>
+            Propriété pour récupérer la chaîne de connexion depuis App.config.
+            </summary>
+        </member>
+        <member name="T:GestionAbsences.WinForms.Modele.Absence">
+            <summary>
+            Représente une absence d'un membre du personnel.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Absence.IdPersonnel">
+            <summary>
+            Identifiant du personnel concerné par l'absence.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Absence.DateDebut">
+            <summary>
+            Date de début de l'absence.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Absence.DateFin">
+            <summary>
+            Date de fin de l'absence.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Absence.IdMotif">
+            <summary>
+            Identifiant du motif de l'absence.
+            </summary>
+        </member>
+        <member name="T:GestionAbsences.WinForms.Modele.Motif">
+            <summary>
+            Représente un motif d'absence.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Motif.IdMotif">
+            <summary>
+            Identifiant unique du motif.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Motif.Libelle">
+            <summary>
+            Libellé du motif.
+            </summary>
+        </member>
+        <member name="T:GestionAbsences.WinForms.Modele.Personnel">
+            <summary>
+            Représente un membre du personnel.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Personnel.IdPersonnel">
+            <summary>
+            Identifiant unique du personnel.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Personnel.Nom">
+            <summary>
+            Nom du personnel.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Personnel.Prenom">
+            <summary>
+            Prénom du personnel.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Personnel.Tel">
+            <summary>
+            Numéro de téléphone du personnel.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Personnel.Mail">
+            <summary>
+            Adresse mail du personnel.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Personnel.IdService">
+            <summary>
+            Identifiant du service auquel appartient le personnel.
+            </summary>
+        </member>
+        <member name="T:GestionAbsences.WinForms.Modele.Responsable">
+            <summary>
+            Représente un responsable dans l'application.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Responsable.Login">
+            <summary>
+            Login du responsable.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Responsable.Pwd">
+            <summary>
+            Mot de passe du responsable.
+            </summary>
+        </member>
+        <member name="T:GestionAbsences.WinForms.Modele.Service">
+            <summary>
+            Représente un service dans l'application.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Service.IdService">
+            <summary>
+            Identifiant unique du service.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Service.Nom">
+            <summary>
+            Nom du service.
+            </summary>
+        </member>
+        <member name="F:GestionAbsences.WinForms.FormLogin.components">
+            <summary>
+            Variable nécessaire au concepteur.
+            </summary>
+        </member>
+        <member name="M:GestionAbsences.WinForms.FormLogin.Dispose(System.Boolean)">
+            <summary>
+            Nettoyage des ressources utilisées.
+            </summary>
+            <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        </member>
+        <member name="M:GestionAbsences.WinForms.FormLogin.InitializeComponent">
+            <summary>
+            Méthode requise pour la prise en charge du concepteur - ne modifiez pas
+            le contenu de cette méthode avec l'éditeur de code.
+            </summary>
+        </member>
+        <member name="M:GestionAbsences.WinForms.Program.Main">
+            <summary>
+            Point d'entrée principal de l'application.
+            </summary>
+        </member>
+        <member name="F:GestionAbsences.WinForms.view.Form2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GestionAbsences.WinForms.view.Form2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GestionAbsences.WinForms.view.Form2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:GestionAbsences.WinForms.Properties.Resources">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Properties.Resources.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Properties.Resources.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+    </members>
+</doc>
