@@ -55,10 +55,13 @@ C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\bin\
 C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.csproj.AssemblyReference.cache
 C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.Properties.Resources.resources
-C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.FormLogin.resources
 C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.csproj.GenerateResource.cache
 C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.csproj.CoreCompileInputs.cache
 C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionA.DCC73C3A.Up2Date
 C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.exe
 C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.pdb
 C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\bin\Debug\GestionAbsences.WinForms.xml
+C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.view.FormConnexion.resources
+C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.view.FormPersonnel.resources
+C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.csproj.SuggestedBindingRedirects.cache
+C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.exe.config

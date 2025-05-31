@@ -7,14 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using GestionAbsences.WinForms.view;
+
 
 namespace GestionAbsences.WinForms.view
 {
-    public partial class Form2: Form
+    public partial class FormPersonnel: Form
     {
-        public Form2()
+        public FormPersonnel()
         {
             InitializeComponent();
+        }
+
+        private void FormPersonnel_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

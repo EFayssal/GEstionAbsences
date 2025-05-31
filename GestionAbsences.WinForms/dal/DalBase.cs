@@ -4,6 +4,7 @@ using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
 
 namespace GestionAbsences.WinForms.dal
 {
@@ -18,6 +19,7 @@ namespace GestionAbsences.WinForms.dal
             {
                 return ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
             }
+        
         }
     }
 }

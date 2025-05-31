@@ -152,40 +152,52 @@
             Nom du service.
             </summary>
         </member>
-        <member name="F:GestionAbsences.WinForms.FormLogin.components">
-            <summary>
-            Variable nécessaire au concepteur.
-            </summary>
-        </member>
-        <member name="M:GestionAbsences.WinForms.FormLogin.Dispose(System.Boolean)">
-            <summary>
-            Nettoyage des ressources utilisées.
-            </summary>
-            <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
-        </member>
-        <member name="M:GestionAbsences.WinForms.FormLogin.InitializeComponent">
-            <summary>
-            Méthode requise pour la prise en charge du concepteur - ne modifiez pas
-            le contenu de cette méthode avec l'éditeur de code.
-            </summary>
-        </member>
         <member name="M:GestionAbsences.WinForms.Program.Main">
             <summary>
             Point d'entrée principal de l'application.
             </summary>
         </member>
-        <member name="F:GestionAbsences.WinForms.view.Form2.components">
+        <member name="T:GestionAbsences.WinForms.utils.PasswordHasher">
+            <summary>
+            Classe utilitaire pour hacher les mots de passe avec l'algorithme SHA-256.
+            </summary>
+        </member>
+        <member name="M:GestionAbsences.WinForms.utils.PasswordHasher.HashPassword(System.String)">
+            <summary>
+            Méthode pour hacher un mot de passe en utilisant SHA-256.
+            </summary>
+            <param name="password">Mot de passe à hacher.</param>
+            <returns>Mot de passe haché sous forme de chaîne hexadécimale.</returns>
+        </member>
+        <member name="F:GestionAbsences.WinForms.view.FormConnexion.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:GestionAbsences.WinForms.view.Form2.Dispose(System.Boolean)">
+        <member name="M:GestionAbsences.WinForms.view.FormConnexion.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:GestionAbsences.WinForms.view.Form2.InitializeComponent">
+        <member name="M:GestionAbsences.WinForms.view.FormConnexion.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:GestionAbsences.WinForms.view.FormPersonnel.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GestionAbsences.WinForms.view.FormPersonnel.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GestionAbsences.WinForms.view.FormPersonnel.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
