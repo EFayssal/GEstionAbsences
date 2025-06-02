@@ -11,11 +11,18 @@ Application complète pour la gestion des ressources humaines avec système d'au
 - Chiffrement SHA-256 des mots de passe
 - Gestion des erreurs de connexion
 
+![Interface du connexion](https://github.com/user-attachments/assets/0813a14e-49a1-4d88-82e1-0f1ae3e2fbdf)
+
+
+### Ajout d'une Interface pour le Nouveau Personnel
+
+Une nouvelle interface a été ajoutée pour permettre l’ajout de membres du personnel via un formulaire complet. Ce formulaire comprend les champs requis suivants : **Nom**, **Prénom**, **Téléphone** et **Email**. et **Service**, Cette fonctionnalité permet de garantir que toutes les informations essentielles sont saisies lors de l’enregistrement d’un nouveau membre du personnel.
+
+![interface du formulaire d'ajout](https://github.com/user-attachments/assets/b7d0974e-1c80-40c1-8497-a3a5cb4660be)
+
 ## EN COURS DE DÉVELOPPEMENT ## 
 
-### 👥 Gestion du personnel
-- **Ajout de personnel (CU2)**  
-  Formulaire complet avec : nom, prénom, téléphone, email et service d'affectation
+### 👥 Gestion du personnel 
 - Modification des informations personnelles
 - Suppression du personnel
 - Liste complète des employés

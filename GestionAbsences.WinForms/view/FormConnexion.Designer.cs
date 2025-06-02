@@ -43,21 +43,24 @@ namespace GestionAbsences.WinForms.view
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblMessage = new System.Windows.Forms.Label();
+            this.btnTogglePwd = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnLogin
             // 
             this.btnLogin.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.Wheat;
             this.btnLogin.FlatAppearance.BorderSize = 0;
             this.btnLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnLogin.Location = new System.Drawing.Point(81, 156);
+            this.btnLogin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnLogin.Location = new System.Drawing.Point(24, 241);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(242, 42);
+            this.btnLogin.Size = new System.Drawing.Size(395, 35);
             this.btnLogin.TabIndex = 9;
             this.btnLogin.Text = "Se connecter";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -67,19 +70,23 @@ namespace GestionAbsences.WinForms.view
             // 
             this.txtPassword.BackColor = System.Drawing.Color.Silver;
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPassword.Font = new System.Drawing.Font("Arial", 10.5F);
+            this.txtPassword.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtPassword.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.txtPassword.Location = new System.Drawing.Point(12, 111);
+            this.txtPassword.Location = new System.Drawing.Point(24, 190);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(395, 30);
             this.txtPassword.TabIndex = 8;
-            this.txtPassword.UseSystemPasswordChar = true;
             // 
             // txtLogin
             // 
             this.txtLogin.BackColor = System.Drawing.Color.Silver;
             this.txtLogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtLogin.Location = new System.Drawing.Point(12, 40);
+            this.txtLogin.Font = new System.Drawing.Font("Arial", 10.5F);
+            this.txtLogin.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.txtLogin.Location = new System.Drawing.Point(24, 123);
             this.txtLogin.Multiline = true;
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Size = new System.Drawing.Size(395, 30);
@@ -90,7 +97,7 @@ namespace GestionAbsences.WinForms.view
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label2.Location = new System.Drawing.Point(9, 83);
+            this.label2.Location = new System.Drawing.Point(21, 168);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 17);
             this.label2.TabIndex = 6;
@@ -101,7 +108,7 @@ namespace GestionAbsences.WinForms.view
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Window;
-            this.label1.Location = new System.Drawing.Point(9, 10);
+            this.label1.Location = new System.Drawing.Point(21, 99);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 17);
             this.label1.TabIndex = 5;
@@ -110,19 +117,57 @@ namespace GestionAbsences.WinForms.view
             // lblMessage
             // 
             this.lblMessage.AutoSize = true;
-            this.lblMessage.ForeColor = System.Drawing.Color.Red;
-            this.lblMessage.Location = new System.Drawing.Point(12, 144);
+            this.lblMessage.ForeColor = System.Drawing.SystemColors.Window;
+            this.lblMessage.Location = new System.Drawing.Point(21, 281);
             this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(35, 13);
+            this.lblMessage.Size = new System.Drawing.Size(0, 13);
             this.lblMessage.TabIndex = 10;
-            this.lblMessage.Text = "label3";
+            // 
+            // btnTogglePwd
+            // 
+            this.btnTogglePwd.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnTogglePwd.FlatAppearance.BorderSize = 0;
+            this.btnTogglePwd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTogglePwd.Location = new System.Drawing.Point(292, 190);
+            this.btnTogglePwd.Name = "btnTogglePwd";
+            this.btnTogglePwd.Size = new System.Drawing.Size(127, 30);
+            this.btnTogglePwd.TabIndex = 11;
+            this.btnTogglePwd.Text = "Afficher";
+            this.btnTogglePwd.UseVisualStyleBackColor = false;
+            this.btnTogglePwd.Click += new System.EventHandler(this.btnTogglePwd_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label3.Location = new System.Drawing.Point(62, 63);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(321, 16);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Connectez-vous pour accéder au tableau de bord";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label4.Location = new System.Drawing.Point(90, 27);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(263, 29);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Gestion du Personnel";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FormConnexion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.ClientSize = new System.Drawing.Size(425, 221);
+            this.ClientSize = new System.Drawing.Size(443, 304);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.btnTogglePwd);
             this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPassword);
@@ -145,5 +190,8 @@ namespace GestionAbsences.WinForms.view
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblMessage;
+        private System.Windows.Forms.Button btnTogglePwd;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }

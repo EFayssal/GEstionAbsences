@@ -92,36 +92,6 @@
             Représente un membre du personnel.
             </summary>
         </member>
-        <member name="P:GestionAbsences.WinForms.Modele.Personnel.IdPersonnel">
-            <summary>
-            Identifiant unique du personnel.
-            </summary>
-        </member>
-        <member name="P:GestionAbsences.WinForms.Modele.Personnel.Nom">
-            <summary>
-            Nom du personnel.
-            </summary>
-        </member>
-        <member name="P:GestionAbsences.WinForms.Modele.Personnel.Prenom">
-            <summary>
-            Prénom du personnel.
-            </summary>
-        </member>
-        <member name="P:GestionAbsences.WinForms.Modele.Personnel.Tel">
-            <summary>
-            Numéro de téléphone du personnel.
-            </summary>
-        </member>
-        <member name="P:GestionAbsences.WinForms.Modele.Personnel.Mail">
-            <summary>
-            Adresse mail du personnel.
-            </summary>
-        </member>
-        <member name="P:GestionAbsences.WinForms.Modele.Personnel.IdService">
-            <summary>
-            Identifiant du service auquel appartient le personnel.
-            </summary>
-        </member>
         <member name="T:GestionAbsences.WinForms.Modele.Responsable">
             <summary>
             Représente un responsable dans l'application.
@@ -168,6 +138,23 @@
             </summary>
             <param name="password">Mot de passe à hacher.</param>
             <returns>Mot de passe haché sous forme de chaîne hexadécimale.</returns>
+        </member>
+        <member name="F:GestionAbsences.WinForms.view.FormAjoutPersonnel.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GestionAbsences.WinForms.view.FormAjoutPersonnel.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GestionAbsences.WinForms.view.FormAjoutPersonnel.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
         </member>
         <member name="F:GestionAbsences.WinForms.view.FormConnexion.components">
             <summary>

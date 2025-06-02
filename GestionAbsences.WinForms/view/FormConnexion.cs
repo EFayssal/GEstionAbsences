@@ -15,13 +15,16 @@ using GestionAbsences.WinForms.dal;
 
 namespace GestionAbsences.WinForms.view
 {
-    public partial class FormConnexion: Form
+    public partial class FormConnexion : Form
     {
         private readonly UtilisateurDal utilisateurDal = new UtilisateurDal();
 
         public FormConnexion()
         {
             InitializeComponent();
+            this.AcceptButton = btnLogin; // la touche Entrée déclenche btnLogin_Click
+
+
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -52,7 +55,23 @@ namespace GestionAbsences.WinForms.view
                 MessageBox.Show("Identifiants incorrects.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        bool passwordVisible = false;
+
+        private void btnTogglePwd_Click(object sender, EventArgs e)
+        {
+            passwordVisible = !passwordVisible;
+
+            if (passwordVisible)
+            {
+                txtPassword.PasswordChar = '\0'; // Affiche le texte
+                btnTogglePwd.Text = "Masquer";         // Change l’icône
+            }
+            else
+            {
+                txtPassword.PasswordChar = '●';  // Masque le mot de passe
+                btnTogglePwd.Text = "Afficher";        // Change l’icône
+            }
+        }
     }
 }
-
-
