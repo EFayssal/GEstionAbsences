@@ -31,5 +31,8 @@ namespace GestionAbsences.WinForms.Modele
         /// Obtient la date de début de l'absence.
         /// </summary>
         public DateTime DateAbsence => datedebut;
+        public int idabsence { get; set; }
     }
+
+
 }

@@ -32,6 +32,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnAjouter = new System.Windows.Forms.Button();
+            this.btnSupprimer = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAbsences)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,13 +75,28 @@
             this.btnAjouter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAjouter.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAjouter.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAjouter.Location = new System.Drawing.Point(377, 36);
+            this.btnAjouter.Location = new System.Drawing.Point(335, 36);
             this.btnAjouter.Name = "btnAjouter";
-            this.btnAjouter.Size = new System.Drawing.Size(200, 33);
+            this.btnAjouter.Size = new System.Drawing.Size(118, 51);
             this.btnAjouter.TabIndex = 18;
             this.btnAjouter.Text = "+ Ajouter une absence";
             this.btnAjouter.UseVisualStyleBackColor = false;
             this.btnAjouter.Click += new System.EventHandler(this.btnAjouter_Click);
+            // 
+            // btnSupprimer
+            // 
+            this.btnSupprimer.BackColor = System.Drawing.Color.IndianRed;
+            this.btnSupprimer.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.btnSupprimer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSupprimer.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSupprimer.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnSupprimer.Location = new System.Drawing.Point(459, 36);
+            this.btnSupprimer.Name = "btnSupprimer";
+            this.btnSupprimer.Size = new System.Drawing.Size(118, 51);
+            this.btnSupprimer.TabIndex = 19;
+            this.btnSupprimer.Text = "- Supprimer une absence";
+            this.btnSupprimer.UseVisualStyleBackColor = false;
+            this.btnSupprimer.Click += new System.EventHandler(this.btnSupprimer_Click);
             // 
             // FormAbsence
             // 
@@ -88,6 +104,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.ClientSize = new System.Drawing.Size(594, 267);
+            this.Controls.Add(this.btnSupprimer);
             this.Controls.Add(this.btnAjouter);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
@@ -107,5 +124,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnAjouter;
+        private System.Windows.Forms.Button btnSupprimer;
     }
 }

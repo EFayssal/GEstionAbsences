@@ -16,19 +16,22 @@ Application complète pour la gestion des ressources humaines avec système d'au
 
 ### NOUVEAUTÉ
 
+- Ajout/suppression d'absences
 - Consultation des absences par employé
-- Ajout/modification/suppression d'absences
-- Historique complet
+
+## Suppression d'absences
+
+![Suppression d'absences](https://github.com/user-attachments/assets/2bfbdff4-c2eb-4579-b465-4a4b2701fb1c)
 
 ## 📅 Gestion des absences
 
 ![Gestion des absences](https://github.com/user-attachments/assets/3916dee9-dd3c-4449-a929-365ea715238b)
 
-## Ajouter une absence
+### Ajouter une absence
 
 ![Ajouter une absence](https://github.com/user-attachments/assets/5fd887a8-a7bc-4f65-a8cd-32f4a8077ec0)
 
-## Afichage de toutes les absences
+### Afichage de toutes les absences
 
 ![Toutes les absences](https://github.com/user-attachments/assets/02d47e74-d03c-4320-bfe6-7809d2ba870e)
 
@@ -46,7 +49,6 @@ Application complète pour la gestion des ressources humaines avec système d'au
 
 ## EN COURS DE DÉVELOPPEMENT ## 
 
-- Supprimer une absence 
 - Modifier une absence
 
 ## Prérequis

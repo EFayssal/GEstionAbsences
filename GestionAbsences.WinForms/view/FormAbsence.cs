@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace GestionAbsences.WinForms.view
 {
     public partial class FormAbsence: Form
@@ -82,5 +83,32 @@ namespace GestionAbsences.WinForms.view
                 }
             }
         }
+
+        private void btnSupprimer_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewAbsences.CurrentRow == null || dataGridViewAbsences.CurrentRow.DataBoundItem == null)
+            {
+                MessageBox.Show("Veuillez sélectionner une absence à supprimer.");
+                return;
+            }
+
+            var result = MessageBox.Show(
+                "Êtes-vous sûr de vouloir supprimer cette absence ?",
+                "Confirmation de suppression",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning);
+
+            if (result == DialogResult.Yes)
+            {
+                // Récupérer l'absence sélectionnée
+                var absence = (Absence)dataGridViewAbsences.CurrentRow.DataBoundItem;
+                var dal = new AbsenceDal();
+                dal.SupprimerAbsence(absence.idabsence);
+
+                // Rafraîchir la liste
+                ChargerAbsences(personnel.idpersonnel);
+            }
+        }
     }
+    
 }

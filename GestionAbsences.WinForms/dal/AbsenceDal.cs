@@ -28,9 +28,11 @@ namespace GestionAbsences.WinForms.dal
                     using (var reader = cmd.ExecuteReader())
                     {
                         while (reader.Read())
+                        
                         {
                             absences.Add(new Absence
                             {
+                                idabsence = reader.GetInt32("idabsence"),
                                 idpersonnel = reader.GetInt32("idpersonnel"),
                                 datedebut = reader.GetDateTime("datedebut"),
                                 datefin = reader.GetDateTime("datefin"),
@@ -103,6 +105,19 @@ namespace GestionAbsences.WinForms.dal
                 }
             }
             return absences;
+        }
+        public void SupprimerAbsence(int idabsence)
+        {
+            using (var conn = new MySqlConnection(ConnectionString))
+            {
+                conn.Open();
+                string query = "DELETE FROM absence WHERE idabsence = @id";
+                using (var cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@id", idabsence);
+                    cmd.ExecuteNonQuery();
+                }
+            }
         }
     }
 }
