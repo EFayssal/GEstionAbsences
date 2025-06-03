@@ -56,5 +56,18 @@ namespace GestionAbsences.WinForms.dal
                 }
             }
         }
+        public void SupprimerPersonnel(int idpersonnel)
+        {
+            using (var conn = new MySql.Data.MySqlClient.MySqlConnection(ConnectionString))
+            {
+                conn.Open();
+                using (var cmd = new MySql.Data.MySqlClient.MySqlCommand("DELETE FROM personnel WHERE idpersonnel = @id", conn))
+                {
+                    cmd.Parameters.AddWithValue("@id", idpersonnel);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
     }
 }

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using GestionAbsences.WinForms.view;
 using GestionAbsences.WinForms.dal;
+using GestionAbsences.WinForms.Modele;
 
 
 namespace GestionAbsences.WinForms.view
@@ -42,6 +43,37 @@ namespace GestionAbsences.WinForms.view
             var dal = new PersonnelDal();
             var personnels = dal.GetAllPersonnel();
             DataGridView.DataSource = personnels;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSupprimer_Click(object sender, EventArgs e)
+        {
+            if (DataGridView.CurrentRow == null)
+            {
+                MessageBox.Show("Veuillez sélectionner un personnel à supprimer.");
+                return;
+            }
+
+            var result = MessageBox.Show(
+                "Êtes-vous sûr de vouloir supprimer ce personnel ?",
+                "Confirmation de suppression",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning);
+
+            if (result == DialogResult.Yes)
+            {
+                // Récupérer l'ID du personnel sélectionné
+                var personnel = (Personnel)DataGridView.CurrentRow.DataBoundItem;
+                var dal = new PersonnelDal();
+                dal.SupprimerPersonnel(personnel.idpersonnel);
+
+                // Rafraîchir la liste
+                ChargerListePersonnel();
+            }
         }
     }
 }

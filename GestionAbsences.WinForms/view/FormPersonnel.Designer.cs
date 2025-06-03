@@ -31,7 +31,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.btnAjouter = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnSupprimer = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.DataGridView = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView)).BeginInit();
@@ -74,17 +74,18 @@
             this.button2.Text = "Modifier";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnSupprimer
             // 
-            this.button3.BackColor = System.Drawing.Color.IndianRed;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button3.Location = new System.Drawing.Point(150, 53);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(132, 42);
-            this.button3.TabIndex = 17;
-            this.button3.Text = "- Supprimer";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnSupprimer.BackColor = System.Drawing.Color.IndianRed;
+            this.btnSupprimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSupprimer.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnSupprimer.Location = new System.Drawing.Point(150, 53);
+            this.btnSupprimer.Name = "btnSupprimer";
+            this.btnSupprimer.Size = new System.Drawing.Size(132, 42);
+            this.btnSupprimer.TabIndex = 17;
+            this.btnSupprimer.Text = "- Supprimer";
+            this.btnSupprimer.UseVisualStyleBackColor = false;
+            this.btnSupprimer.Click += new System.EventHandler(this.btnSupprimer_Click);
             // 
             // button4
             // 
@@ -115,7 +116,7 @@
             this.ClientSize = new System.Drawing.Size(789, 370);
             this.Controls.Add(this.DataGridView);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnSupprimer);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnAjouter);
             this.Controls.Add(this.label4);
@@ -132,7 +133,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnAjouter;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnSupprimer;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.DataGridView DataGridView;
     }
