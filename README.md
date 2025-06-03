@@ -14,24 +14,40 @@ Application complète pour la gestion des ressources humaines avec système d'au
 - Suppresion du personnel
 - Modification des informations personnelles
 
+### NOUVEAUTÉ
+
+- Consultation des absences par employé
+- Ajout/modification/suppression d'absences
+- Historique complet
+
+## 📅 Gestion des absences
+
+![Gestion des absences](https://github.com/user-attachments/assets/3916dee9-dd3c-4449-a929-365ea715238b)
+
+## Ajouter une absence
+
+![Ajouter une absence](https://github.com/user-attachments/assets/5fd887a8-a7bc-4f65-a8cd-32f4a8077ec0)
+
+## Afichage de toutes les absences
+
+![Toutes les absences](https://github.com/user-attachments/assets/02d47e74-d03c-4320-bfe6-7809d2ba870e)
+
 ### Modification du personnel
 
 ![Modification du personnel](https://github.com/user-attachments/assets/be7f35a4-d8fb-44f3-baf0-12f9cdd96554)
 
-# Suppresion du personnel
+### Suppresion du personnel
 
 ![ImaSuppression du personnel](https://github.com/user-attachments/assets/e9d669b5-9572-492e-a89c-a44ab9335a82)
 
-# Interface du formulaire d'ajout
+### Interface du formulaire d'ajout
 
 ![interface du formulaire d'ajout](https://github.com/user-attachments/assets/b7d0974e-1c80-40c1-8497-a3a5cb4660be)
 
 ## EN COURS DE DÉVELOPPEMENT ## 
 
-### 📅 Gestion des absences
-- Consultation des absences par employé
-- Ajout/modification/suppression d'absences
-- Historique complet
+- Supprimer une absence 
+- Modifier une absence
 
 ## Prérequis
 

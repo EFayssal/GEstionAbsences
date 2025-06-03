@@ -95,5 +95,34 @@ namespace GestionAbsences.WinForms.view
                 }
             }
         }
+
+        private void btnAbsences_Click(object sender, EventArgs e)
+        {
+            // Vérifie qu'une ligne est sélectionnée et qu'elle contient un objet Personnel
+            if (DataGridView.CurrentRow == null || DataGridView.CurrentRow.DataBoundItem == null)
+            {
+                MessageBox.Show("Veuillez sélectionner un personnel.");
+                return;
+            }
+
+            // Récupère le personnel sélectionné
+            var personnel = (Personnel)DataGridView.CurrentRow.DataBoundItem;
+
+            // Ouvre la fenêtre des absences pour ce personnel
+            using (var formAbs = new FormAbsence(personnel))
+            {
+                formAbs.ShowDialog();
+            }
+        }
+
+        private void btnAbsencesTous_Click(object sender, EventArgs e)
+        {
+            using (var formTouteAbs = new FormTouteAbsences())
+            {
+                formTouteAbs.ShowDialog();
+            }
+        }
+    
     }
+    
 }

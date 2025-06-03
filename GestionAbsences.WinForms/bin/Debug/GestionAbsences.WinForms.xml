@@ -52,24 +52,29 @@
             Représente une absence d'un membre du personnel.
             </summary>
         </member>
-        <member name="P:GestionAbsences.WinForms.Modele.Absence.IdPersonnel">
+        <member name="P:GestionAbsences.WinForms.Modele.Absence.idpersonnel">
             <summary>
             Identifiant du personnel concerné par l'absence.
             </summary>
         </member>
-        <member name="P:GestionAbsences.WinForms.Modele.Absence.DateDebut">
+        <member name="P:GestionAbsences.WinForms.Modele.Absence.datedebut">
             <summary>
             Date de début de l'absence.
             </summary>
         </member>
-        <member name="P:GestionAbsences.WinForms.Modele.Absence.DateFin">
+        <member name="P:GestionAbsences.WinForms.Modele.Absence.datefin">
             <summary>
             Date de fin de l'absence.
             </summary>
         </member>
-        <member name="P:GestionAbsences.WinForms.Modele.Absence.IdMotif">
+        <member name="P:GestionAbsences.WinForms.Modele.Absence.idmotif">
             <summary>
             Identifiant du motif de l'absence.
+            </summary>
+        </member>
+        <member name="P:GestionAbsences.WinForms.Modele.Absence.DateAbsence">
+            <summary>
+            Obtient la date de début de l'absence.
             </summary>
         </member>
         <member name="T:GestionAbsences.WinForms.Modele.Motif">
@@ -139,6 +144,40 @@
             <param name="password">Mot de passe à hacher.</param>
             <returns>Mot de passe haché sous forme de chaîne hexadécimale.</returns>
         </member>
+        <member name="F:GestionAbsences.WinForms.view.FormAbsence.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GestionAbsences.WinForms.view.FormAbsence.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GestionAbsences.WinForms.view.FormAbsence.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:GestionAbsences.WinForms.view.FormAjoutAbsence.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GestionAbsences.WinForms.view.FormAjoutAbsence.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GestionAbsences.WinForms.view.FormAjoutAbsence.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="F:GestionAbsences.WinForms.view.FormAjoutPersonnel.components">
             <summary>
             Required designer variable.
@@ -202,6 +241,23 @@
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
         <member name="M:GestionAbsences.WinForms.view.FormPersonnel.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:GestionAbsences.WinForms.view.FormTouteAbsences.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GestionAbsences.WinForms.view.FormTouteAbsences.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GestionAbsences.WinForms.view.FormTouteAbsences.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.

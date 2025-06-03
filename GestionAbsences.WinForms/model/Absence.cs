@@ -10,21 +10,26 @@ namespace GestionAbsences.WinForms.Modele
         /// <summary>
         /// Identifiant du personnel concerné par l'absence.
         /// </summary>
-        public int IdPersonnel { get; set; }
+        public int idpersonnel { get; set; }
 
         /// <summary>
         /// Date de début de l'absence.
         /// </summary>
-        public DateTime DateDebut { get; set; }
+        public DateTime datedebut { get; set; }
 
         /// <summary>
         /// Date de fin de l'absence.
         /// </summary>
-        public DateTime DateFin { get; set; }
+        public DateTime datefin { get; set; }
 
         /// <summary>
         /// Identifiant du motif de l'absence.
         /// </summary>
-        public int IdMotif { get; set; }
+        public int idmotif { get; set; }
+
+        /// <summary>
+        /// Obtient la date de début de l'absence.
+        /// </summary>
+        public DateTime DateAbsence => datedebut;
     }
 }
