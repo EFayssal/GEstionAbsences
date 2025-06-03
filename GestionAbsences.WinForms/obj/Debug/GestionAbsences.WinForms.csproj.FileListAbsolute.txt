@@ -70,3 +70,4 @@ C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\
 C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.view.FormAjoutAbsence.resources
 C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.view.FormAbsence.resources
 C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.view.FormTouteAbsences.resources
+C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.view.FormModifierAbsence.resources

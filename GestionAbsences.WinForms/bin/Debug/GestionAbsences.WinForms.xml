@@ -195,18 +195,26 @@
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="F:GestionAbsences.WinForms.view.FormConnexion.components">
+        <!-- Badly formed XML comment ignored for member "F:GestionAbsences.WinForms.view.FormConnexion.components" -->
+        <!-- Badly formed XML comment ignored for member "M:GestionAbsences.WinForms.view.FormConnexion.Dispose(System.Boolean)" -->
+        <member name="M:GestionAbsences.WinForms.view.FormConnexion.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:GestionAbsences.WinForms.view.FormModifierAbsence.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:GestionAbsences.WinForms.view.FormConnexion.Dispose(System.Boolean)">
+        <member name="M:GestionAbsences.WinForms.view.FormModifierAbsence.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:GestionAbsences.WinForms.view.FormConnexion.InitializeComponent">
+        <member name="M:GestionAbsences.WinForms.view.FormModifierAbsence.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.

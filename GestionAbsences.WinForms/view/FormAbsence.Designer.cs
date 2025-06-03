@@ -33,6 +33,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnAjouter = new System.Windows.Forms.Button();
             this.btnSupprimer = new System.Windows.Forms.Button();
+            this.btnModifier = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAbsences)).BeginInit();
             this.SuspendLayout();
             // 
@@ -41,7 +42,7 @@
             this.dataGridViewAbsences.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewAbsences.Location = new System.Drawing.Point(12, 93);
             this.dataGridViewAbsences.Name = "dataGridViewAbsences";
-            this.dataGridViewAbsences.Size = new System.Drawing.Size(565, 153);
+            this.dataGridViewAbsences.Size = new System.Drawing.Size(668, 162);
             this.dataGridViewAbsences.TabIndex = 0;
             // 
             // label4
@@ -72,38 +73,57 @@
             // 
             this.btnAjouter.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnAjouter.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.btnAjouter.FlatAppearance.BorderSize = 0;
             this.btnAjouter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAjouter.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAjouter.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAjouter.Location = new System.Drawing.Point(335, 36);
+            this.btnAjouter.Location = new System.Drawing.Point(353, 53);
             this.btnAjouter.Name = "btnAjouter";
-            this.btnAjouter.Size = new System.Drawing.Size(118, 51);
+            this.btnAjouter.Size = new System.Drawing.Size(105, 35);
             this.btnAjouter.TabIndex = 18;
-            this.btnAjouter.Text = "+ Ajouter une absence";
+            this.btnAjouter.Text = "+ Ajouter ";
             this.btnAjouter.UseVisualStyleBackColor = false;
             this.btnAjouter.Click += new System.EventHandler(this.btnAjouter_Click);
             // 
             // btnSupprimer
             // 
-            this.btnSupprimer.BackColor = System.Drawing.Color.IndianRed;
+            this.btnSupprimer.BackColor = System.Drawing.Color.Chocolate;
             this.btnSupprimer.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.btnSupprimer.FlatAppearance.BorderSize = 0;
             this.btnSupprimer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSupprimer.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSupprimer.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSupprimer.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnSupprimer.Location = new System.Drawing.Point(459, 36);
+            this.btnSupprimer.Location = new System.Drawing.Point(575, 53);
             this.btnSupprimer.Name = "btnSupprimer";
-            this.btnSupprimer.Size = new System.Drawing.Size(118, 51);
+            this.btnSupprimer.Size = new System.Drawing.Size(105, 35);
             this.btnSupprimer.TabIndex = 19;
-            this.btnSupprimer.Text = "- Supprimer une absence";
+            this.btnSupprimer.Text = "- Supprimer";
             this.btnSupprimer.UseVisualStyleBackColor = false;
             this.btnSupprimer.Click += new System.EventHandler(this.btnSupprimer_Click);
+            // 
+            // btnModifier
+            // 
+            this.btnModifier.BackColor = System.Drawing.Color.YellowGreen;
+            this.btnModifier.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.btnModifier.FlatAppearance.BorderSize = 0;
+            this.btnModifier.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModifier.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModifier.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnModifier.Location = new System.Drawing.Point(464, 53);
+            this.btnModifier.Name = "btnModifier";
+            this.btnModifier.Size = new System.Drawing.Size(105, 35);
+            this.btnModifier.TabIndex = 20;
+            this.btnModifier.Text = "Modifier";
+            this.btnModifier.UseVisualStyleBackColor = false;
+            this.btnModifier.Click += new System.EventHandler(this.btnModifier_Click);
             // 
             // FormAbsence
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.ClientSize = new System.Drawing.Size(594, 267);
+            this.ClientSize = new System.Drawing.Size(693, 269);
+            this.Controls.Add(this.btnModifier);
             this.Controls.Add(this.btnSupprimer);
             this.Controls.Add(this.btnAjouter);
             this.Controls.Add(this.label3);
@@ -125,5 +145,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnAjouter;
         private System.Windows.Forms.Button btnSupprimer;
+        private System.Windows.Forms.Button btnModifier;
     }
 }

@@ -43,14 +43,14 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.MediumPurple;
+            this.label4.BackColor = System.Drawing.Color.LightSeaGreen;
             this.label4.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.label4.Location = new System.Drawing.Point(12, 16);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(348, 29);
+            this.label4.Size = new System.Drawing.Size(272, 29);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Nouvelle demande d\'absence";
+            this.label4.Text = "+ Ajouter une Absence";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // dateTimePickerDebut
@@ -79,19 +79,23 @@
             // 
             // btnAnnuler
             // 
+            this.btnAnnuler.BackColor = System.Drawing.Color.Silver;
+            this.btnAnnuler.FlatAppearance.BorderSize = 0;
+            this.btnAnnuler.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAnnuler.Location = new System.Drawing.Point(260, 195);
             this.btnAnnuler.Name = "btnAnnuler";
             this.btnAnnuler.Size = new System.Drawing.Size(90, 27);
             this.btnAnnuler.TabIndex = 27;
             this.btnAnnuler.Text = "Annuler";
-            this.btnAnnuler.UseVisualStyleBackColor = true;
+            this.btnAnnuler.UseVisualStyleBackColor = false;
             this.btnAnnuler.Click += new System.EventHandler(this.btnAnnuler_Click);
             // 
             // btnEnregistrer
             // 
-            this.btnEnregistrer.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnEnregistrer.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnEnregistrer.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnEnregistrer.FlatAppearance.BorderSize = 0;
+            this.btnEnregistrer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEnregistrer.Location = new System.Drawing.Point(356, 195);
             this.btnEnregistrer.Name = "btnEnregistrer";
             this.btnEnregistrer.Size = new System.Drawing.Size(90, 27);
@@ -147,7 +151,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.ClientSize = new System.Drawing.Size(454, 248);
+            this.ClientSize = new System.Drawing.Size(454, 235);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

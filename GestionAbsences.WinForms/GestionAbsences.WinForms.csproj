@@ -154,6 +154,12 @@
     <Compile Include="view\FormConnexion.Designer.cs">
       <DependentUpon>FormConnexion.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\FormModifierAbsence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FormModifierAbsence.Designer.cs">
+      <DependentUpon>FormModifierAbsence.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\FormModifierPersonnel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -192,6 +198,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="view\FormConnexion.resx">
       <DependentUpon>FormConnexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FormModifierAbsence.resx">
+      <DependentUpon>FormModifierAbsence.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\FormModifierPersonnel.resx">
       <DependentUpon>FormModifierPersonnel.cs</DependentUpon>

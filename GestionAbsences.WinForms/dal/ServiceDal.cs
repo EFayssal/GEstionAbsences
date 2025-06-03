@@ -2,7 +2,7 @@
 
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient; // Ou MySqlClient selon votre SGBD
+using System.Data.SqlClient;
 using GestionAbsences.WinForms.Modele;
 using MySql.Data.MySqlClient;
 

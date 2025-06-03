@@ -111,7 +111,7 @@
             this.btnAbsences.Name = "btnAbsences";
             this.btnAbsences.Size = new System.Drawing.Size(200, 38);
             this.btnAbsences.TabIndex = 18;
-            this.btnAbsences.Text = "Accéder aux absences";
+            this.btnAbsences.Text = "Gestion des Absences";
             this.btnAbsences.UseVisualStyleBackColor = false;
             this.btnAbsences.Click += new System.EventHandler(this.btnAbsences_Click);
             // 

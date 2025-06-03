@@ -29,14 +29,14 @@ namespace GestionAbsences.WinForms.view
             else
             {
                 this.Text = "Absences de tout le personnel";
-                // Handle the "all personnel" case appropriately.
+                
             }
         }
         
         private void ChargerAbsencesTous()
         {
             var dal = new AbsenceDal();
-            var absences = dal.GetAllAbsences(); // À implémenter dans AbsenceDal si besoin
+            var absences = dal.GetAllAbsences(); 
             var absencesTriees = absences.OrderByDescending(a => a.DateAbsence).ToList();
             dataGridViewAbsences.DataSource = absencesTriees;
         }
@@ -53,7 +53,7 @@ namespace GestionAbsences.WinForms.view
 
             // Charger les absences du personnel
             var dal = new AbsenceDal();
-            var absences = dal.GetAbsencesByPersonnel(personnel.idpersonnel); //
+            var absences = dal.GetAbsencesByPersonnel(personnel.idpersonnel); 
             dataGridViewAbsences.DataSource = absences;
         }
        
@@ -109,6 +109,26 @@ namespace GestionAbsences.WinForms.view
                 ChargerAbsences(personnel.idpersonnel);
             }
         }
+
+        private void btnModifier_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewAbsences.CurrentRow == null || dataGridViewAbsences.CurrentRow.DataBoundItem == null)
+            {
+                MessageBox.Show("Veuillez sélectionner une absence à modifier.");
+                return;
+            }
+
+            var absence = (Absence)dataGridViewAbsences.CurrentRow.DataBoundItem;
+            using (var formModif = new FormModifierAbsence(absence))
+            {
+                if (formModif.ShowDialog() == DialogResult.OK)
+                {
+                    ChargerAbsences(personnel.idpersonnel);
+
+                }
+            }
+        }
     }
+    
     
 }

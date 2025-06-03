@@ -119,5 +119,45 @@ namespace GestionAbsences.WinForms.dal
                 }
             }
         }
+
+
+        public void ModifierAbsence(Absence absence)
+        {
+            using (var conn = new MySqlConnection(ConnectionString))
+            {
+                conn.Open();
+                string query = "UPDATE absence SET datedebut=@debut, datefin=@fin, idmotif=@motif WHERE idabsence=@id";
+                using (var cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@debut", absence.datedebut);
+                    cmd.Parameters.AddWithValue("@fin", absence.datefin);
+                    cmd.Parameters.AddWithValue("@motif", absence.idmotif);
+                    cmd.Parameters.AddWithValue("@id", absence.idabsence);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        // Vérifie s'il existe déjà une absence sur la période (hors celle en cours de modif)
+        public bool ExisteAbsenceDansPeriodeModif(int idabsence, int idpersonnel, DateTime debut, DateTime fin)
+        {
+            using (var conn = new MySqlConnection(ConnectionString))
+            {
+                conn.Open();
+                string query = @"SELECT COUNT(*) FROM absence 
+                         WHERE idpersonnel = @idpersonnel 
+                         AND idabsence <> @idabsence
+                         AND (datedebut <= @fin AND datefin >= @debut)";
+                using (var cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@idpersonnel", idpersonnel);
+                    cmd.Parameters.AddWithValue("@idabsence", idabsence);
+                    cmd.Parameters.AddWithValue("@debut", debut);
+                    cmd.Parameters.AddWithValue("@fin", fin);
+                    int count = Convert.ToInt32(cmd.ExecuteScalar());
+                    return count > 0;
+                }
+            }
+        }
     }
 }
