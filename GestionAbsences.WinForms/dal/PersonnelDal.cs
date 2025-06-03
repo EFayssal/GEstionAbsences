@@ -68,6 +68,25 @@ namespace GestionAbsences.WinForms.dal
                 }
             }
         }
+        public void ModifierPersonnel(Personnel personnel)
+        {
+            using (var conn = new MySql.Data.MySqlClient.MySqlConnection(ConnectionString))
+            {
+                conn.Open();
+                using (var cmd = new MySql.Data.MySqlClient.MySqlCommand(
+                    "UPDATE personnel SET nom=@nom, prenom=@prenom, tel=@tel, mail=@mail, idservice=@idservice WHERE idpersonnel=@id", conn))
+                {
+                    cmd.Parameters.AddWithValue("@nom", personnel.nom);
+                    cmd.Parameters.AddWithValue("@prenom", personnel.prenom);
+                    cmd.Parameters.AddWithValue("@tel", personnel.tel);
+                    cmd.Parameters.AddWithValue("@mail", personnel.mail);
+                    cmd.Parameters.AddWithValue("@idservice", personnel.idservice);
+                    cmd.Parameters.AddWithValue("@id", personnel.idpersonnel);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
 
     }
 }

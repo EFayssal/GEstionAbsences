@@ -66,3 +66,4 @@ C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\
 C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.csproj.SuggestedBindingRedirects.cache
 C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.exe.config
 C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.view.FormAjoutPersonnel.resources
+C:\Users\Utilisateur\source\repos\GEstionAbsences1\GestionAbsences.WinForms\obj\Debug\GestionAbsences.WinForms.view.FormModifierPersonnel.resources

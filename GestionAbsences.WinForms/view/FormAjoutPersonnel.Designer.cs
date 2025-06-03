@@ -68,6 +68,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label4.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.label4.Location = new System.Drawing.Point(12, 9);
@@ -193,7 +194,7 @@
             // lblErreur
             // 
             this.lblErreur.AutoSize = true;
-            this.lblErreur.Location = new System.Drawing.Point(21, 354);
+            this.lblErreur.Location = new System.Drawing.Point(21, 349);
             this.lblErreur.Name = "lblErreur";
             this.lblErreur.Size = new System.Drawing.Size(50, 13);
             this.lblErreur.TabIndex = 26;

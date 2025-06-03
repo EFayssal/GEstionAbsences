@@ -14,7 +14,7 @@ using GestionAbsences.WinForms.Modele;
 
 namespace GestionAbsences.WinForms.view
 {
-    public partial class FormPersonnel: Form
+    public partial class FormPersonnel : Form
     {
         public FormPersonnel()
         {
@@ -37,7 +37,7 @@ namespace GestionAbsences.WinForms.view
                 }
             }
         }
-        
+
         private void ChargerListePersonnel()
         {
             var dal = new PersonnelDal();
@@ -73,6 +73,26 @@ namespace GestionAbsences.WinForms.view
 
                 // Rafraîchir la liste
                 ChargerListePersonnel();
+            }
+        }
+
+        private void btnModifier_Click(object sender, EventArgs e)
+        {
+            {
+                if (DataGridView.CurrentRow == null)
+                {
+                    MessageBox.Show("Veuillez sélectionner un personnel à modifier.");
+                    return;
+                }
+
+                var personnel = (Personnel)DataGridView.CurrentRow.DataBoundItem;
+                using (var formModif = new FormModifierPersonnel(personnel))
+                {
+                    if (formModif.ShowDialog() == DialogResult.OK)
+                    {
+                        ChargerListePersonnel();
+                    }
+                }
             }
         }
     }

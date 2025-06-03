@@ -6,23 +6,27 @@ Application complète pour la gestion des ressources humaines avec système d'au
 
 ## ✨ Fonctionnalités implémentées
 
-### 🔐 Authentification (CU1)
 - Connexion sécurisée pour les responsables RH
 - Chiffrement SHA-256 des mots de passe
 - Gestion des erreurs de connexion
+- L'ajout du formulaire d'ajout de personnel
+- Ajouter un Personnel
+- Suppresion du personnel
+- Modification des informations personnelles
 
-### -Suppression du personnel
+### Modification du personnel
 
-Permettre au responsable du personnel de supprimer un employé de la base de données via l’interface, en s’assurant d’une confirmation explicite avant toute suppression.
+![Modification du personnel](https://github.com/user-attachments/assets/be7f35a4-d8fb-44f3-baf0-12f9cdd96554)
+
+# Suppresion du personnel
+
 ![ImaSuppression du personnel](https://github.com/user-attachments/assets/e9d669b5-9572-492e-a89c-a44ab9335a82)
-interface du formulaire d'ajout
+
+# Interface du formulaire d'ajout
+
 ![interface du formulaire d'ajout](https://github.com/user-attachments/assets/b7d0974e-1c80-40c1-8497-a3a5cb4660be)
 
 ## EN COURS DE DÉVELOPPEMENT ## 
-
-### 👥 Gestion du personnel 
-- Modification des informations personnelles
-- Liste complète des employés
 
 ### 📅 Gestion des absences
 - Consultation des absences par employé
