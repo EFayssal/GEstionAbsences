@@ -18,7 +18,7 @@ Application complète pour la gestion des ressources humaines avec système d'au
 
 ### NOUVEAUTÉ
 
-- Modifier une Absences
+Création de Setup + MAJ de la documentation technique
 
 ## Modification d'absences
 
@@ -61,7 +61,7 @@ Application complète pour la gestion des ressources humaines avec système d'au
 ![I-Connexion](https://github.com/user-attachments/assets/bc6830cb-bf95-4a4e-85f7-2f4073ebb10e)
 
 
-## EN COURS DE DÉVELOPPEMENT ## 
+## EN COURS DE DÉVELOPPEMENT Mission 10 ## 
 
 Optimisation du DataGirdView pour une meilleur lecture et visibilité.
 

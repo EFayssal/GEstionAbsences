@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionAbsences.WinForms", "GestionAbsences.WinForms\GestionAbsences.WinForms.csproj", "{7EE9658F-C978-4B07-BE6E-0F1D2898B517}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "GDB Setup", "GDB Setup\GDB Setup.vdproj", "{392C0FD0-E549-2F51-D815-8AEB987759F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7EE9658F-C978-4B07-BE6E-0F1D2898B517}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EE9658F-C978-4B07-BE6E-0F1D2898B517}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EE9658F-C978-4B07-BE6E-0F1D2898B517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392C0FD0-E549-2F51-D815-8AEB987759F7}.Debug|Any CPU.ActiveCfg = Debug
+		{392C0FD0-E549-2F51-D815-8AEB987759F7}.Debug|Any CPU.Build.0 = Debug
+		{392C0FD0-E549-2F51-D815-8AEB987759F7}.Release|Any CPU.ActiveCfg = Release
+		{392C0FD0-E549-2F51-D815-8AEB987759F7}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

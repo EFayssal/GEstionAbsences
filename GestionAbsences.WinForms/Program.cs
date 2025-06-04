@@ -7,6 +7,16 @@ using GestionAbsences.WinForms.view;
 
 namespace GestionAbsences.WinForms
 {
+
+    /// <summary>
+    /// Application de gestion des contancts
+    /// </summary>
+    internal class NamespaceDoc
+
+     { 
+
+     }
+
     static class Program
     {
         /// <summary>

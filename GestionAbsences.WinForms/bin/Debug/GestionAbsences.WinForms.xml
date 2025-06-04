@@ -127,6 +127,11 @@
             Nom du service.
             </summary>
         </member>
+        <member name="T:GestionAbsences.WinForms.NamespaceDoc">
+            <summary>
+            Application de gestion des contancts
+            </summary>
+        </member>
         <member name="M:GestionAbsences.WinForms.Program.Main">
             <summary>
             Point d'entrée principal de l'application.
